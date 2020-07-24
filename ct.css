@@ -2,7 +2,7 @@ html {
 	background: rgb(175,19,190);
 	background: linear-gradient(180deg, rgba(175,19,190,1) 0%, rgba(42,194,181,1) 50%, rgba(236,100,14,1) 100%);
 	background-repeat: no-repeat;
-	/*height: 100%;*/
+	min-height: 100%;
 }
 
 
