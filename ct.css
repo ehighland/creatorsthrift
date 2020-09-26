@@ -18,7 +18,6 @@ h2 {
 nav {
 	color: #FFFFFF;
 	font-size: 18pt;
-	font-color: #FFFFFF;
 	font-family: 'Ubuntu', sans-serif;
 	text-align: left;
 	margin-left: 5%;
@@ -125,41 +124,3 @@ nav li a:hover{
 	align-content: center;
 	padding: 10px;
 }
-
-/*.grid-one{
-}
-
-.grid-two{
-	align-content: center;
-
-}
-
-.grid-three{
-
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 15% 85%;
-}*/
-
-/*#grid-two {
-	text-align: center;
-	margin-left: 5%;
-	margin-right: 5%;
-	padding: 5%;
-	border: 3px solid #000000;
-	border-radius: 50px;
-	min-height: 400px;
-}
-
-#grid-two h3 {
-	font-size: 20pt;
-	font-family: 'Lato', sans-serif;;
-}
-
-#grid-two p {
-	font-family: 'Lato', sans-serif;
-	font-size: 16pt;
-}
-*/
