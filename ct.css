@@ -1,6 +1,9 @@
 html {
-	background: rgb(175,19,190);
-	background: linear-gradient(180deg, rgba(175,19,190,1) 0%, rgba(42,194,181,1) 50%, rgba(236,100,14,1) 100%);
+	/*background: rgb(175,19,190);*/
+	/*background: linear-gradient(180deg, rgba(175,19,190,1) 0%, rgba(42,194,181,1) 50%, rgba(236,100,14,1) 100%);*/
+	/*background: #fcab8d;*/
+	/*background: #c09eeb;*/
+	background: #c4b0cc;
 	background-repeat: no-repeat;
 	min-height: 100%;
 }
@@ -66,7 +69,7 @@ background-color: #000000;
 	border-radius: 50px;
 	text-decoration: none;
 	padding: 10px;
-	opacity: 0.65;
+	/*opacity: 0.65;*/
 }
 
 /*.splash a:hover {
@@ -91,9 +94,20 @@ background-color: #000000;
 	padding-bottom:2%;
 	border: 3px solid #000000;
 	border-radius: 50px;
-	opacity: 0.65;
+	opacity: 0.85;
 	/* z-index: 0; */
 	font-family: 'Ubuntu', sans-serif;
+}
+
+.foot {
+	position: absolute;
+	margin-left: auto;
+margin-right: auto;
+margin-bottom: 15px;
+left: 0;
+right: 0;
+bottom: 0;
+text-align: center;
 }
 
 #footernav {
@@ -108,16 +122,19 @@ background-color: #000000;
 }
 
 .splash p, ol li {
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	font-size: 14pt;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	font-size: 12pt;
 	font-family: 'Ubuntu', sans-serif;
 	/*
 	font-family: 'Roboto Condensed', sans-serif;*/
 	/*font-family: 'Lato', sans-serif;*/
 	text-align: left;
+}
+
+#verticalaligngrid {
+	display: grid;
+	grid-template-rows: 1fr 2fr 1fr;
 }
 
 .statementgrid {
@@ -126,6 +143,44 @@ background-color: #000000;
 	width: 100%;
 	align-content: center;
 	padding: 5px;
+}
+
+.statementgrid a {
+	color: #75adff;
+}
+
+.cfgrid {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	width: 100%;
+	align-content: center;
+	padding: 5px;
+}
+.cfgrid a {
+	color: #75adff;
+}
+
+.cfgrid p {
+text-align: center;
+}
+
+.splashgrid {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	width: 100%;
+	align-content: center;
+}
+
+.splashgrid p{
+	vertical-align: middle;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	font-size: 12pt;
+	font-family: 'Ubuntu', sans-serif;
+	/*
+	font-family: 'Roboto Condensed', sans-serif;*/
+	/*font-family: 'Lato', sans-serif;*/
+	text-align: left;
 }
 
 .footergrid {
@@ -176,7 +231,7 @@ background-color: #000000;
   border-radius: 50px;
   outline: none;
   color: #DDDDDD;
-  opacity: 0.65;
+ /* opacity: 0.65;*/
   /*padding: 14px 16px;*/
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -185,7 +240,8 @@ background-color: #000000;
 
 /* Add a background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-background-color: rgba(175,19,190,1);
+/*background-color: rgba(175,19,190,1);*/
+background-color: #75adff;
 }
 
 /* Dropdown content (hidden by default) */
@@ -193,7 +249,7 @@ background-color: rgba(175,19,190,1);
   display: none;
   position: absolute;
   background-color: #000000;
-  min-width: 160px;
+  min-width: 180px;
   border-radius: 20px;
   outline: none;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -215,7 +271,8 @@ background-color: rgba(175,19,190,1);
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: rgba(42,194,181,1);
+  background-color: #89b169; /*rgba(42,194,181,1);*/
+  color: #000000;
 }
 
 /* Show the dropdown menu on hover */
