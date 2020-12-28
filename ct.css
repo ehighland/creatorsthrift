@@ -93,7 +93,7 @@ background-color: #000000;
 	margin-top: 20px;
 	padding-left:2%;
 	padding-right:2%;
-	padding-bottom:2%;
+	/* padding-bottom:2%; */
 	border: 3px solid #000000;
 	border-radius: 50px;
 	opacity: 0.85;
@@ -102,20 +102,29 @@ background-color: #000000;
 }
 
 .foot {
+/* 
+background-color: none;
+color: #000000;
+ */
+
+/* opacity: 0.85; */
 background-color: #000000;
-opacity: 0.85;
+color: #DDDDDD;
 width: 50%;
 border-radius: 50px;
-padding: 2px;
+padding: 8px;
 	position: absolute;
 	margin-left: auto;
 margin-right: auto;
-margin-bottom: 15px;
+margin-bottom: 30px;
+margin-top: 30px;
+
 left: 0;
 right: 0;
 bottom: 0;
 text-align: center;
 }
+
 
 #footernav {
 	padding-left: 15%;
@@ -286,4 +295,26 @@ background-color: #75adff;
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+} 
+
+/* This portion adapted from W3 Schools */
+/* https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+ /* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 } 
