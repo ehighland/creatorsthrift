@@ -127,12 +127,24 @@ text-align: center;
 	text-align: left;
 }
 
+/* 
 .footergrid {
 	display: grid;
 	grid-template-columns: 1fr;
 	width: 100%;
 	align-content: center;
 	padding: 5px;
+}
+ */
+ 
+ .foot {
+    position:absolute;
+    bottom:0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 2%;
+    align-content: center;
 }
 
 /* All below is taken from W3 Schools*/
