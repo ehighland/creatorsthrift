@@ -229,8 +229,10 @@ background-color: #75adff;
 /* https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
  /* width */
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 0px;
+  height: 0px;
 }
+
 
 /* Track */
 ::-webkit-scrollbar-track {
