@@ -62,7 +62,7 @@ background-color: #000000;
 }
 
 .foot {
-    position:absolute;
+    /*position:absolute;*/
     bottom:0;
     margin-bottom: 10px;
     margin-top: 20px;
