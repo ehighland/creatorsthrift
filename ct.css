@@ -101,8 +101,21 @@ background-color: #000000;
 	font-family: 'Ubuntu', sans-serif;
 	max-height: 480px; 
 	min-height:480px;
+	overflow: scroll;
+	position: relative;
 }
 
+.foot {
+    position:absolute;
+    bottom:0;
+    margin-bottom: 8px;
+    padding: 2px;
+    float: left;
+    margin-left: 38%;
+    align-content: center;
+}
+
+/* 
 .foot {
 /* 
 background-color: none;
@@ -110,6 +123,7 @@ color: #000000;
  */
 
 /* opacity: 0.85; */
+/* 
 background-color: #000000;
 color: #DDDDDD;
 width: 50%;
@@ -127,17 +141,21 @@ bottom: 0;
 text-align: center;
 }
 
+ */
 
+/* 
 #footernav {
 	padding-left: 15%;
 	padding-right: 15%;
 	font-size: 20pt;
 	/*font-family: 'Lato', sans-serif;*/
 	/*font-family: 'Roboto Condensed', sans-serif;*/
-	font-family: 'Ubuntu', sans-serif;
+	/* 
+font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 	padding: 10px;
 }
+ */
 
 .splash p, ol li {
 	padding-left: 7.5%;
@@ -153,6 +171,10 @@ text-align: center;
 #verticalaligngrid {
 	display: grid;
 	grid-template-rows: 1fr 2fr 1fr;
+	/*font-size: 16pt;*/
+}
+
+#verticalaligngrid p {
 	font-size: 16pt;
 }
 
@@ -161,12 +183,14 @@ text-align: center;
 	grid-template-columns: 2fr 2fr 2fr;
 	width: 100%;
 	align-content: center;
-	padding: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .statementgrid a {
 	color: #75adff;
 }
+/* 
 
 .cfgrid {
 	display: grid;
@@ -181,6 +205,29 @@ text-align: center;
 
 .cfgrid p {
 text-align: center;
+}
+ */
+ 
+ .cfgrid {
+	display: grid;
+	grid-template-columns: 3fr;
+	width: 100%;
+	align-content: center;
+	padding: 5px;
+}
+.cfgrid a {
+	color: #75adff;
+}
+
+.cfgrid p {
+text-align: center;
+}
+
+#calstyle {
+	overflow: scroll;
+	margin-top: 20px;
+	padding-top: 10px;
+	align-content: center;
 }
 
 .splashgrid {
@@ -304,7 +351,8 @@ background-color: #75adff;
 /* https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
  /* width */
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 0px;
+  height: 0px;
 }
 
 /* Track */
