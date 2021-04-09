@@ -185,10 +185,16 @@ font-family: 'Ubuntu', sans-serif;
 	align-content: center;
 	padding-left: 5px;
 	padding-right: 5px;
+	padding-bottom: 10px;
+	font-size: 12pt;
 }
 
 .statementgrid a {
 	color: #75adff;
+}
+
+.statementgrid li {
+	font-size: 11pt;
 }
 /* 
 
